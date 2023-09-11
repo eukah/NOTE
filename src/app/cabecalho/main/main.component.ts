@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Nota } from '../nota'
 
 @Component({
   selector: 'app-main',

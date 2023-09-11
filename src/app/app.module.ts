@@ -7,6 +7,7 @@ import { CabecalhoComponent } from './cabecalho/cabecalho/cabecalho.component';
 import { SideComponent } from './cabecalho/side/side.component';
 import { MainComponent } from './cabecalho/main/main.component';
 import { CriarnotaComponent } from './cabecalho/criarnota/criarnota.component';
+import { NotaComponent } from './cabecalho/nota/nota.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { CriarnotaComponent } from './cabecalho/criarnota/criarnota.component';
     CabecalhoComponent,
     SideComponent,
     MainComponent,
-    CriarnotaComponent
+    CriarnotaComponent,
+    NotaComponent
   ],
   imports: [
     BrowserModule,
